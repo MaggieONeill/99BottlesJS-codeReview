@@ -53,6 +53,6 @@ $(document).ready(function() {
     $("#input").text(userInput);
     $("#beerSong").html(beerSong);
     $(".result").show();
-    event.preventeDefault();
+    event.preventDefault();
   });
 });
